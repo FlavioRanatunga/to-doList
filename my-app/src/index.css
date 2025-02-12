@@ -1,0 +1,93 @@
+body {
+  background-color: #000000; /* Set background color to black */
+  color: #ffffff; /* Set text color to white */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  background-color: #333333; /* Dark background for the app container */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #555555; /* Dark background for input */
+  border: 1px solid #777777; /* Dark border for input */
+  border-radius: 8px;
+  margin-right: 10px;
+  width: 200px;
+  color: #ffffff; /* White text color for input */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007aff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #555555; /* Dark border for task items */
+}
+
+.task-item span {
+  flex-grow: 1;
+  text-align: left;
+  color: #ffffff; /* White text color for task items */
+}
+
+.task-item button {
+  margin-left: 10px;
+  background-color: #ff3b30;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.task-item button:hover {
+  background-color: #c1271d;
+}
+
+.task-item button:first-of-type {
+  background-color: #007aff;
+}
+
+.task-item button:first-of-type:hover {
+  background-color: #005bb5;
+}
