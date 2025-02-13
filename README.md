@@ -72,5 +72,8 @@ to-doList/
 - Ensure that the backend is running on port `8080` and the frontend is running on port `3000`.
 - Check the console for any error messages and resolve them accordingly.
 
+## Algorithms.js Usage
+- node algorithm.js
+
 [Clone using the web URL.](https://github.com/FlavioRanatunga/to-doList.git)
 
