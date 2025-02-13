@@ -40,5 +40,5 @@ function isPalindrome(str) {
 
 // Example usage:
 console.log(reverseString("hello")); // Output: "olleh"
-console.log(secondLargest([44, 52, 33, 25, 8])); // Output: 9
-console.log(isPalindrome("A man, a plan, a canal, Panama")); // Output: true
+console.log(secondLargest([44, 52, 33, 25, 8])); // Output: 44
+console.log(isPalindrome("Madam")); 
