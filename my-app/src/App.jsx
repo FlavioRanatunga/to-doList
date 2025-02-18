@@ -27,7 +27,7 @@ function App() {
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify({ taskName: newTask }) // Send taskName as an object
+      body: newTask // Send taskName as an object
     }).then(() => {
       fetchTasks(); // Fetch the updated list of tasks
       setNewTask("");
